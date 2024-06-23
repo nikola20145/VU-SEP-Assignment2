@@ -41,9 +41,6 @@
                     <rulesets>
                         <!-- Basic ruleset -->
                         <ruleset>/rulesets/java/basic.xml</ruleset>
-                        <!-- Uncomment other rulesets as needed -->
-                        <!-- <ruleset>/rulesets/java/braces.xml</ruleset> -->
-                        <!-- <ruleset>/rulesets/java/design.xml</ruleset> -->
                     </rulesets>
                     <linkXRef>false</linkXRef>
                 </configuration>
