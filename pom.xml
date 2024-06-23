@@ -32,6 +32,30 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
             </plugin>
+            <!-- PMD Plugin configuration -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.15.0</version>
+                <configuration>
+                    <rulesets>
+                        <!-- Basic ruleset -->
+                        <ruleset>/rulesets/java/basic.xml</ruleset>
+                        <!-- Uncomment other rulesets as needed -->
+                        <!-- <ruleset>/rulesets/java/braces.xml</ruleset> -->
+                        <!-- <ruleset>/rulesets/java/design.xml</ruleset> -->
+                    </rulesets>
+                    <linkXRef>false</linkXRef>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 </project>
