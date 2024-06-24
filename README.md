@@ -2,11 +2,12 @@
 
 # Report for Assignment 2
 
-Programming language used: <Python or Java>
+Programming language used: Java
 
 ## Workflow 1: Testing (`testing.yml`)
 
-<Inform which tool is used to compile and test.>
+I used Maven to compile and run the tests on each commit made to any repository branch.
+Link to an execution of testing workflow, which demonstrates the process of using Maven to compile and run the tests on each commit made to any repository branch: https://github.com/YBushi/VU-SEP-Assignment2/actions/runs/9635440427
 
 <Provide the link to one log (from the "Actions" tab on GitHub) of an execution of this workflow>
 
@@ -27,6 +28,7 @@ Programming language used: <Python or Java>
 <Provide the link to one log (from the "Actions" tab on GitHub) of an execution of this workflow>
 
 ## Statement of individual contributions
+Tomas: I have created a Maven pom.xml file that was set up to compile and run tests that were provided. I have set up the structure of this repository by creating new folders into which I put the files that were provided. I have created testing-workflow branch, where I have implemented testing workflow. Finally, I have reviewed the implementation of the workflows of my team members.
 
 <Write what each group member did. Use the following table for that and add additional text under it if you see fit.>
 
