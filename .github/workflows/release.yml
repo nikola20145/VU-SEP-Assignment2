@@ -1,1 +1,30 @@
+# Release workflow
+name: release
 
+on:
+  push:
+    branches:
+    # For testing purposes change this to "**" or release-workflow
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  create_release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, 'release')
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Create GitHub Release
+        id: create_release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git tag -a v${GITHUB_RUN_NUMBER} -m "Automated release ${GITHUB_RUN_NUMBER}"
+          git push --follow-tags
