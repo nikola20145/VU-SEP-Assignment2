@@ -32,6 +32,7 @@ Jayran: I did research on the different Java Static Code Analysis Tools. I selec
 
 <Write what each group member did. Use the following table for that and add additional text under it if you see fit.>
 
+
 | Member | Created workflows | Reviewed workflows | Merged pull requests' number |
 | --- | --- | --- | --- |
 | Tomas | | |  |
