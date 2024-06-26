@@ -34,8 +34,8 @@ Jayran: I did research on the different Java Static Code Analysis Tools. I selec
 
 | Member | Created workflows | Reviewed workflows | Merged pull requests' number |
 | --- | --- | --- | --- |
-| Tomas | | | |
-| Jayran | | | |
+| Tomas | | |  |
+| Jayran | 1 | 3 | 26 |
 | Luis | | | |
 | Nikola | | | |
 
