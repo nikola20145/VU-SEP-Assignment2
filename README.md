@@ -21,8 +21,7 @@ Link to an execution of testing workflow, which demonstrates the process of usin
 
 <Inform which tool is used to perform code quality check with static analysis.>
 
-<Provide the link to one log (from the "Actions" tab on GitHub) of an execution of this workflow>
-
+Since we are using Maven to build and compile the code, I implemented a workflow that runs the maven checkstyle function (default) as the 2nd static code analysis which runs on Pull Requests. Here is a link to one log from the actions:
 ## Workflow 4: Release (`release.yml`)
 
 <Provide the link to one log (from the "Actions" tab on GitHub) of an execution of this workflow>
