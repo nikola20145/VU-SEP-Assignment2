@@ -17,7 +17,9 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v2
       with:
+        distribution: 'temurin'
         java-version: '11'
+
 
     - name: Build and run Checkstyle
       run: mvn checkstyle:check
