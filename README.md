@@ -19,7 +19,7 @@ Link to an execution of testing workflow, which demonstrates the process of usin
 
 <Inform which tool is used to perform code quality check with static analysis.>
 
-Since we are using Maven to build and compile the code, I implemented a workflow that runs the maven checkstyle function (default) as the 2nd static code analysis which runs on Pull Requests made to any branch. Here is a link to one log from the actions: https://github.com/YBushi/VU-SEP-Assignment2/actions/runs/9686187402. 
+Since we are using Maven to build and compile the code, I implemented a workflow that runs the maven checkstyle function (default) as the 2nd static code analysis which runs on Pull Requests made to any branch. Here is a link to one log from the actions: https://github.com/YBushi/VU-SEP-Assignment2/actions/runs/9686187402. The code style errors can be seen at the end of the output. (It is really long).
 
 ## Workflow 4: Release (`release.yml`)
 
