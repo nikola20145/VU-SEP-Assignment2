@@ -1,0 +1,23 @@
+name: Static Analysis on Pull Requests
+
+on:
+  pull_request:
+    branches:
+        - "**"
+
+jobs:
+  checkstyle-analysis:
+    name: Initalize Checkstyle Analysis
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+
+    - name: Build and run Checkstyle
+      run: mvn checkstyle:check
