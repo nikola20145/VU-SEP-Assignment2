@@ -41,8 +41,8 @@ Luis: After doing some research on how to have an automatic release, I stumbled 
 
 | Member | Created workflows | Reviewed workflows | Merged pull requests' number |
 | --- | --- | --- | --- |
-| Tomas | 1 | 3 |  |
+| Tomas | 1 | 3 | 7 |
 | Jayran | 1 | 3 | 26 |
-| Luis | 1 | 3 | 19 |
-| Nikola | 1 | 3 | |
+| Luis | 1 | 3 | 20 |
+| Nikola | 1 | 3 | 14 |
 
