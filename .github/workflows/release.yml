@@ -5,7 +5,7 @@ on:
   push:
     branches:
     # For testing purposes change this to "**" or release-workflow, when merging to main, rename it to main
-      - release-workflow
+      - main
 
 permissions:
   contents: write
