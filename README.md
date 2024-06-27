@@ -18,7 +18,7 @@ The build process (compilation, testing, packaging) is efficiently managed by Ma
 
 <Inform which tool is used to perform code quality check with static analysis.>
 
-Since we are using Maven to build and compile the code, I implemented a workflow that runs the maven checkstyle function (default) as the 2nd static code analysis which runs on Pull Requests made to any branch. Here is a link to one log from the actions: https://github.com/YBushi/VU-SEP-Assignment2/actions/runs/9686187402. The code style errors can be seen at the end of the output. (It is really long).
+Since we are using Maven to build and compile the code, I implemented a workflow that runs the maven checkstyle function (default) as the 2nd static code analysis which runs on Pull Requests made to any branch. Here is a link to one log from the actions: https://github.com/YBushi/VU-SEP-Assignment2/actions/runs/9701786863. The code style errors can be seen at the end of the output. Scroll all the way down on the checkstye job (It is really long).
 
 ## Workflow 4: Release (`release.yml`)
 
@@ -41,8 +41,8 @@ Luis: After doing some research on how to have an automatic release, I stumbled 
 
 | Member | Created workflows | Reviewed workflows | Merged pull requests' number |
 | --- | --- | --- | --- |
-| Tomas | 1 | 3 | 7 |
-| Jayran | 1 | 3 | 26 |
-| Luis | 1 | 3 | 20 |
-| Nikola | 1 | 3 | 14 |
+| Tomas | testing | release, static analysis 1, static analysis 2 | 7 |
+| Jayran | static analysis 2 | testing, release, static analysis 1 | 26 |
+| Luis |  release | testing, static analysis 1, static analysis 2 | 20 |
+| Nikola | static analysis 1 | testing, static analysis 2, release | 14 |
 
